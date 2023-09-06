@@ -35,6 +35,8 @@ end
 
 while 1 do
     _draw()
-    api.update(_draw) --The update function needs it for rendering the button changes once they are pressed (the second background color, bg2)
+    api.update(_draw)
+--The update function needs it for rendering the button
+--changes once they are pressed (the second background color, bg2)
 end
 ```
