@@ -2,7 +2,7 @@
 A button API for lazy people
 
 ## Some example code
-```
+```lua
 local api = require("btn-api")
 
 local function _draw() --Let's you edit how stuff renders!
