@@ -22,9 +22,9 @@ local function pressBtn(self)
     numbLabel.text = table.concat(numbs,"") --Adds
 end
 
-for x=0,2 do
+for x=0,2 do --Creates a small 3x3 keypad
     for y=0,2 do
-        api.newBtn(tostring(x+y*3+1),x*2+2,y+3,pressBtn,nil,nil,nil,nil,nil,{number=x+y*3+1}) --Creates a small 3x3 keypad
+        api.newBtn(tostring(x+y*3+1),x*2+2,y+3,pressBtn,nil,nil,nil,nil,nil,{number=x+y*3+1})
         --[[
           Buttons can have some text in them,
           a position, a function, colors, and
